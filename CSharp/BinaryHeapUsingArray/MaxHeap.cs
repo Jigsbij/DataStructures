@@ -7,7 +7,6 @@ namespace CSharp.BinaryHeapUsingArray
         public MaxHeap(int capacity): base(capacity)
         {
         }
-
         protected override void ReCalculateUp()
         {
             int index = size - 1;

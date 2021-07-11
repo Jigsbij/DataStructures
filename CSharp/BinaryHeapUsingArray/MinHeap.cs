@@ -7,7 +7,7 @@ namespace CSharp.BinaryHeapUsingArray
     {
         public MinHeap(int capacity): base(capacity)
         {
-
+            
         }
         
         protected override void ReCalculateUp()

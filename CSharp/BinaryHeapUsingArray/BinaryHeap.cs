@@ -5,6 +5,7 @@ namespace CSharp.BinaryHeapUsingArray
     public abstract class BinaryHeap
     {
         protected readonly int[] elements;
+        public int Size { get { return size; }  }
         protected int size;
         protected BinaryHeap(int capacity)
         {
